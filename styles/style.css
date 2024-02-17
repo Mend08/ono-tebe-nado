@@ -135,6 +135,16 @@
   background-position: 50%;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
+.lots__card-list-item {
+  flex-grow: 1;
+  width: 334px;
+  min-height: 563px;
+}
+
 .ddd {
   color: #ffffff;
   display: flex;
@@ -158,9 +168,9 @@
 .lots__card-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 .card_type_film {
